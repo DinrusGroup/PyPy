@@ -144,7 +144,7 @@ class Driver(object):
             self.max_colour = loc[3]
             if DEBUG:
                 # Only used for debugging new locations:
-                print "Colour range", self.colour_range
+                print ("Colour range", self.colour_range)
             self.colour_range = None
             self.restart()
             return
@@ -183,4 +183,4 @@ if __name__ == '__main__':
         if 0 and random.random() < 0.01:
             string = "WARNING! " * 3
             d.jump(len(string))
-            print string,
+            print (string)

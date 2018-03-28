@@ -138,4 +138,4 @@ def _get_git_version(root):
 
 
 if __name__ == '__main__':
-    print get_repo_version_info()
+    print (get_repo_version_info())
